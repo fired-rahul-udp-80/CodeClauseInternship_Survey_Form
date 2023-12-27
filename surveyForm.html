@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color:white;
+            font-weight:500;
+            font-size: 22px;
+        }
+        input{
+            font-size:15px;
+        }
+        input[type="checkbox"]{
+            width:22px;
+            height:22px;
+        }
+        input[type="radio"]{
+            width:22px;
+            height:22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="w-[100vw] h-[100%] flex flex-col items-center px-[20px]" style="background-image:url('https://images.pexels.com/photos/11716072/pexels-photo-11716072.jpeg?auto=compress&cs=tinysrgb&w=600'); background-repeat:no-repeat;
+    background-position:center; background-size:100% 100%; background-attachment: fixed;">
+        <div class="text-2xl text-white font-serif font-semibold " style="margin-top:10px;">CodeClause Survey Form</div>
+        <p class="text-white mb-4">Thank you for visiting for my Platoform</p>
+        <div class="w-full lg:w-[900px] rounded flex flex-col px-10 py-10" style="background:rgba(0,0,0,0.5);">
+            <form action="">
+                <label for="" class="text-white text-[20px] font-semibold">Name</label><br>
+                <input type="text" placeholder="Enter Name..." class="w-full h-[37px] mt-2 rounded px-2 text-[18px] text-black outline-none"><br><br>
+
+                <label for="" class="text-white text-[20px] font-semibold">Email</label><br>
+                <input type="email" placeholder="Enter your email..." class="w-full h-[37px] mt-2 text-[18px] rounded px-2 text-black outline-none"><br><br>
+
+                <label for="" class="text-white text-[20px] font-semibold">Age(optional)</label><br>
+                <input type="number" placeholder="Enter your age..." class="w-full text-[18px] h-[37px] mt-2 rounded px-2 text-black outline-none"><br><br>
+
+                <label for="" class="text-white text-[20px] font-semibold">Which option best describes your current role ?</label><br>
+                <select name="" id="" class="w-full h-[37px] text-[18px] rounded px-2 mt-2 text-black">
+                    <option value="" class="text-black">Select Your Role</option>
+                    <option value="" class="text-black">Student</option>
+                    <option value="" class="text-black">Full Time Job</option>
+                    <option value="" class="text-black">Full Time Learner</option>
+                    <option value="" class="text-black">Other</option>
+                </select><br><br>
+
+                <label for="" class="text-white text-[20px] font-semibold">Would you recommend CodeClauseInternship to a friend</label><br><br>
+                <input type="radio" name="f">&nbsp;&nbsp;Definitely <br><br>
+                <input type="radio" name="f">&nbsp;&nbsp;Maybe <br><br>
+                <input type="radio" name="f">&nbsp;&nbsp;Sure <br><br>
+                <br>
+
+                <label for="" class="text-white text-[20px] font-semibold">Which is your favourite feature of CodeClauseInternShip</label><br>
+                <select name="" id="" class="w-full h-[37px] text-[18px] rounded px-2 mt-2 text-black outline-none">
+                    <option value="" class="text-black">Select an option</option>
+                    <option value="" class="text-black">Challenger</option>
+                    <option value="" class="text-black">Projects</option>
+                    <option value="" class="text-black">Community</option>
+                    <option value="" class="text-black">Reference</option>
+                </select><br><br>
+
+                <label for="" class="text-white text-[20px] font-semibold">What would you like to see improved?(Check all that apply)</label><br><br>
+                <input type="checkbox" class="w-6">&nbsp;&nbsp;Front-end Projects <br><br>
+                <input type="checkbox">&nbsp;&nbsp;Back-end Projects <br><br>
+                <input type="checkbox">&nbsp;&nbsp;Data Visualisation <br><br>
+                <input type="checkbox">&nbsp;&nbsp;Challengers <br><br>
+                <input type="checkbox">&nbsp;&nbsp;Open Source Community <br><br>
+                <input type="checkbox">&nbsp;&nbsp;Gitter help rooms <br><br>
+                <input type="checkbox">&nbsp;&nbsp;Videos <br><br>
+                <input type="checkbox">&nbsp;&nbsp;City Meetups <br><br>
+                <input type="checkbox">&nbsp;&nbsp;Wiki <br><br>
+                <input type="checkbox">&nbsp;&nbsp;Forum <br><br>
+                <input type="checkbox">&nbsp;&nbsp;Addtional Cources <br><br>
+
+                <label for=""class="text-white text-[20px] font-semibold">Any Comments or Suggestion?</label><br>
+                <textarea name="" id="" class="w-full rounded h-[200px] mt-2 text-[15px] px-2 outline-none text-black capatilize" placeholder="Enter your comment here..."></textarea>
+                <input type="submit" value="Submit" class="py-2 px-6 rounded mt-4 uppercase text-[15px] font-bold cursor-pointer" style="background:rgb(17, 0, 100);">
+
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
